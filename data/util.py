@@ -7,5 +7,3 @@ def get_connection():
     except sqlite3.Error as e:
         print(e)
     return conn
-
-
